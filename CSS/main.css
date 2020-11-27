@@ -1,0 +1,173 @@
+.body_fonts {
+    font-family: 'Crimson Pro', serif;
+}
+
+
+/*Nav*/
+
+.navbar {
+    background: #C3142D;
+    color: #f4f4f4
+}
+
+.navbar a {
+    font-family: 'roboto slab', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #C3142D;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.bg-dark {
+    background-color: #343a40!important
+}
+
+.bg-primary {
+    background-color: #C3142D!important
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #C3142D;
+    border-color: #C3142D;
+}
+
+
+/*headers*/
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+
+/* Home */
+
+.search {
+    color: #C3142D;
+}
+
+.backimg {
+    background-image: url("../images/students-whiteboard-co-lab-800x400px.png");
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 200%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.modal-dialog,
+.modal-content {
+    /* 90% of window height */
+    height: 90%;
+}
+
+.modal-body {
+    /* 100% = dialog height, 120px = header + footer */
+    max-height: calc(100% - 120px);
+    overflow-y: scroll;
+}
+
+.img-fluid {
+
+}
+
+.jobsearch {
+    padding-top: 10em;
+}
+
+.featjob {
+    padding-top: 4em;
+}
+
+
+/*job*/
+
+.job {
+    margin: 4em 0;
+    position: relative;
+}
+
+.job h1 {
+    color: #C3142D;
+    margin: 2em;
+}
+
+.job .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.job .card img {
+    width: 100%;
+}
+
+.job .card-title {
+    color: #C3142D;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.job .card-body {
+    padding: 1em;
+}
+
+.job .card-link {
+    color: #C3142D;
+}
+
+
+/* Footer */
+
+.page-footer {
+    color: #fff;
+    background-color: #C3142D;
+}
+
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
